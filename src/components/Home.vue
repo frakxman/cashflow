@@ -1,10 +1,24 @@
 <!-- *********** HTML *********** -->
 <template>
-  <h1>Hello Frakx from Vue.JS</h1>
+  <Layout>
+    <template #header>
+      <Header></Header>
+    </template>
+  </Layout>
+
 </template>
 
 <!-- *********** JavaScript *********** -->
 <script>
+  import Header from "./Header.vue";
+  import Layout from "./Layout.vue";
+
+  export default {
+    components: {
+      Header,
+      Layout,
+    },
+  };
 </script>
 
 <!-- *********** CSS *********** -->

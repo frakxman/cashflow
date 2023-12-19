@@ -1,18 +1,10 @@
 <!-- *********** HTML *********** -->
 <template>
-  <Home />
+  <h1>Hello Frakx from Vue.JS</h1>
 </template>
 
 <!-- *********** JavaScript *********** -->
 <script>
-import Home from "./components/Home.vue";
-
-export default {
-  name: "App",
-  components: {
-    Home,
-  },
-};
 </script>
 
 <!-- *********** CSS *********** -->
